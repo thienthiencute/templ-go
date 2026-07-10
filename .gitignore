@@ -1,4 +1,26 @@
-./test.templ/*_templ.go
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
+# Test binary, built with `go test -c`
+*.test
 
-/tmp/*
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Generated templ files (Do not push generated code)
+*_templ.go
+*_templ.txt
+
+# Air generated files / temp dirs
+/tmp/
+build-errors.log
+
+# IDEs and Editor files
+.idea/
+.vscode/
+*.swp
+*.DS_Store
