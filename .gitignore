@@ -15,9 +15,10 @@
 *_templ.go
 *_templ.txt
 
-# Air generated files / temp dirs
+# Air generated files / config
 /tmp/
 build-errors.log
+.air.toml
 
 # IDEs and Editor files
 .idea/
